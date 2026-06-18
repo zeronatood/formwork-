@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> googleform</title>
+</head>
+
+<body>
+    <h1>ฟอร์มเข้านอน</h1>
+
+    <br action="sleep" method="post">
+        <!---ข้อมูลส่วนตัว--->
+        ชื่อ: <input type="text" required><br>
+        นามสกุล: <input type="text" required><br>
+        อายุ: <input type="number" required><br>
+
+
+        <!---อีเมล--->
+        อีเมล: <input type="email" required><br>
+
+
+        <!---รหัสผ่าน--->
+        รหัสผ่าน: <input type="password"><br>
+        <!---radio --->
+        เพศ:
+        <input type="radio" name="gender" value="ชาย" required>ชาย
+        <input type="radio" name="gender" value="หญิง" required>หญิง
+        <input type="radio" name="gender" value="อื่นๆ" required>อื่นๆ<br>
+
+        <!---select--->
+        ระดับการศึกษา:
+        <select>
+        
+        <option>ม.4</option>
+        <option>ม.5</option>
+        <option>ม.6</option>
+
+    </select>
+        <!---checkbox--->
+        
+        
+        <input type="checkbox" name="agree" required>ยอมรับเงื่อนไข <br>
+        
+        <!---submit--->
+         <input type="submit" value="ส่งข้อมูล">
+
+
+
+    </form>
+
+</body>
+
+</html>
